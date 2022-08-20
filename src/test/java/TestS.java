@@ -17,7 +17,7 @@ public class TestS {
 
 
 
-        //  By code = By.xpath("//*[contains(text(), 'Україна')]");
+        By code = By.xpath("//*[contains(text(), 'Україна')]");
         By number = By.xpath("//input[@data-qa-node='phone-number']");
         By amount = By.xpath("//input[@data-qa-node='amount']");
         By cardFrom = By.xpath("//input[@data-qa-node='numberdebitSource']");
